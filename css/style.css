@@ -1,0 +1,170 @@
+*{ box-sizing: border-box; margin: 0px; padding: 0px;}
+
+/* Header css start */
+
+.header {
+    width: 100%;
+    border: 1px solid;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 7fr 2fr;
+}
+
+.header .logo {
+
+    border: 1px solid;
+    padding: 10px;
+}
+
+.header .nav {
+
+    border: 1px solid;
+    padding: 10px;
+   /*  background: lightpink; */
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.header .nav .menu {
+    list-style: none;
+    color: black;
+    font-size: 14px;
+    display: inline;
+    border: 2px solid purple;
+    text-transform: uppercase;
+    padding: 20px 25px;
+    position: relative;
+
+}
+
+.header .nav .menu .fa-angle-down { margin-left: 8px;}
+
+.header .nav .menu a { 
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+.header .nav .menu:hover a {color:  #91ad41;}
+.header .nav .menu:hover .fa-angle-down {color:  #91ad41;}
+
+
+.header .nav .menu .sub {
+    
+    position: absolute;
+    top: 56px;
+    left: 0px;
+    background: white;
+    display: none;
+    z-index: 1;
+    border-top: 2px solid;
+    color: #8d8d99;
+    
+}
+
+.header .nav .menu .sub li {
+    list-style: none;
+    width: 200px;
+    text-align: left;
+    padding: 10px;
+}
+
+.header .nav .menu:hover .sub{ display: block;}
+
+.header .header-right {
+
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.header .header-right .search {
+    border: 1px solid;
+    position: relative;
+}
+.header .header-right .search .search-box{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 1px solid;
+    /* width: 40%; */
+    background: white;
+}
+
+.header .header-right a{ 
+    margin: 0px 5px; 
+    text-decoration: none; 
+    color: black;
+}
+
+.header .header-right a .fa-bag-shopping {
+    position: relative;
+}
+
+.header .header-right a span { 
+    position: absolute; 
+    top: -6px;
+    right: -4px;
+    color: white;
+    width: 13px;
+    height: 13px;
+    font-size: 8px;
+    border-radius: 50%;
+    background: black;
+    padding: 2px;
+}
+
+
+/* Header css end */
+
+
+
+/* Slider css sart */
+
+.slider {
+    
+    background: url(../images/oar1-sl1_1944x.webp) no-repeat;
+   /*  background-size: 100% 100%; */
+    background-size: cover;
+    position: relative;
+     height: 600px; 
+    /* border: 2px solid ; */
+
+}
+
+.slider .text {
+    position: absolute;
+    top: 108px;
+    left: 95px;
+    text-align: center;
+}
+
+.slider .text p { 
+    color: #8d8d99;
+    text-align: center;
+}
+
+.slider .text button {
+    background-color: #91ad41;
+    color: white;
+    border-radius: 10px;
+    margin: 20px 0px;
+    border: none;
+    padding: 15px 25px;
+    text-transform: uppercase;
+}
+
+.slider .text button:hover {
+    background-color: white;
+    color: #8d8d99;
+    border: 1px solid #8d8d99;
+    transition: .5s;
+}
+
+
+
+
+
+/* Slider css end */

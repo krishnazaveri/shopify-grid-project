@@ -1,0 +1,10 @@
+@media(max-width:500px)
+{
+    .header {grid-template-columns: 1fr;}
+    .header .logo { text-align: center; margin: 15px 0px;}
+    .header .logo img { width: 30%; }
+
+    .header .header-right { margin-top: 15px;}
+}
+
+
