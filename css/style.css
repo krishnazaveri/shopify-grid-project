@@ -1,6 +1,6 @@
 *{ box-sizing: border-box; margin: 0px; padding: 0px;}
 
-/* Header css start */
+/* --------------------------------Header css start-------------------------------------- */
 
 .header {
     width: 100%;
@@ -182,11 +182,11 @@
 }
 
 
-/* Header css end */
+/* --------------------------------Header css end-------------------------------------- */
 
 
 
-/* Slider css sart */
+/* --------------------------------Slider css start-------------------------------------- */
 
 .slider {
     
@@ -234,8 +234,10 @@
     transition: .5s;
 }
 
-/* Slider css end */
+/* --------------------------------Slider css start-------------------------------------- */
 
+
+/* --------------------------------About container css start-------------------------------------- */
 
 
 .container {
@@ -389,11 +391,214 @@
  
 }
 
-
-
 .container .bottom .bottom-left img {
     /* padding: 10px; */
     width: 100%;
     height: 100%;
 
 }
+
+/* --------------------------------About container css end-------------------------------------- */
+
+
+/* --------------------------------detox container css start-------------------------------------- */
+
+.detox-container {
+    width: 100%;
+    background: url(../images/oar-bg-about-deal.png) no-repeat;
+    background-size:135% 135%;
+    background-color: #f7eee2;
+    background-position: center;
+   /*  padding: 30px; */
+    margin-top: 30px;
+}
+
+.detox-container h3 {
+    font-family:'streamster', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0px;
+    padding: 0px;
+    color: #91ad41;
+    font-size: 22px;
+}
+
+.detox-container h1 {
+    font-family:'poppins', sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 0px 0px 22px 0px;
+    background: url(../images/oar1_ico_title_150x.webp);
+    /* background-size: 100% 100%; */
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    font-size: 35px;
+}
+
+.detox-container p {
+    font-family:'poppins', sans-serif;
+    text-align: center;
+    margin: 20px auto;
+    /* padding: 0px 30px; */
+    color: #8d8d99;
+    width: 55%;
+    border: 1px solid;
+    font-weight: normal;
+    letter-spacing: 1px;
+
+}
+
+.detox-container .recipe {
+    border: 2px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+}
+.detox-container .recipe .left {
+    border: 2px solid green;
+    position: relative;
+   
+}
+
+/* .detox-container .recipe .left .text-top {position: relative;} */
+
+.detox-container .recipe .left .text-top .text {
+    position: absolute;
+    top: 130px;
+    left: 0px;
+}
+
+.detox-container .recipe .left .text-top .img {
+    position: absolute;
+    top: 132px;
+    right: -142px;
+    transition: .5s;
+}
+
+.detox-container .recipe .left .text-top .img:hover { transform: scale(1.1);}
+
+
+.detox-container .recipe .left .text-btm {position: relative;}
+
+.detox-container .recipe .left .text-btm .text {
+    position: absolute;
+    top: 315px;
+    right: 25px;
+}
+
+.detox-container .recipe .left .text-btm .img {
+    position: absolute;
+    top: 317px;
+    right: -100px;
+    transition: .5s;
+}
+.detox-container .recipe .left .text-btm .img:hover { transform: scale(1.1);}
+
+
+.detox-container .recipe .left h4 {
+    font-family: 'poppins' , sans-serif;
+    text-align: right;
+    font-weight: 100;
+}
+.detox-container .recipe .left p { margin: 0px; 
+    padding: 0px; 
+    width: 100%; 
+    text-align: right;
+    margin-top: 10px;
+    font-size: 16px;
+    letter-spacing: 0px;
+}
+
+.detox-container .recipe .center {
+    border: 2px solid red;
+    text-align: center;
+    
+}
+
+/* .detox-container .recipe .center img {
+    border: 2px solid red;
+    width: 100%;
+    height: 100%;
+         
+} */
+
+.detox-container .recipe .right {
+    border: 2px solid blue;
+    
+}
+
+
+.detox-container .recipe .right .text-top {position: relative;}
+
+.detox-container .recipe .right .text-top .text {
+    position: absolute;
+    top: 130px;
+    left: 0px;
+}
+
+.detox-container .recipe .right .text-top .img {
+    position: absolute;
+    top: 132px;
+    left: -142px;
+    transition: .5s;
+}
+
+.detox-container .recipe .right .text-top .img:hover { transform: scale(1.1);}
+
+
+.detox-container .recipe .right .text-btm {position: relative;}
+
+.detox-container .recipe .right .text-btm .text {
+    position: absolute;
+    top: 315px;
+    left: 25px;
+}
+
+.detox-container .recipe .right .text-btm .img {
+    position: absolute;
+    top: 317px;
+    left: -100px;
+    transition: .5s;
+}
+
+
+.detox-container .recipe .right .text-btm .img:hover { transform: scale(1.1);}
+
+
+.detox-container .recipe .right h4 {
+    font-family: 'poppins' , sans-serif;
+    text-align: left;
+    font-weight: 100;
+}
+.detox-container .recipe .right p { margin: 0px; 
+    padding: 0px; 
+    width: 100%; 
+    text-align: left;
+    margin-top: 10px;
+    font-size: 16px;
+    letter-spacing: 0px;
+}
+
+
+.detox-container .recipe .center button {
+    background-color: #91ad41;
+    color: white;
+    border-radius: 10px;
+    margin: 10px 0px;
+    border: none;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    
+}
+
+.detox-container .recipe .center button:hover {
+    background-color: white;
+    color: #8d8d99;
+    border: 1px solid #8d8d99;
+    transition: .5s;
+}
+
+
+
+/* --------------------------------detox container css end-------------------------------------- */

@@ -55,6 +55,14 @@
     .container .bottom .bottom-right h3 { font-size: 16px;}
    
     .container .bottom { padding: 10px;}
+
+
+    .detox-container .recipe {
+        grid-template-columns: 1fr;
+        
+    }
+
+    
 }
 
 
