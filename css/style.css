@@ -411,6 +411,7 @@
     background-position: center;
    /*  padding: 30px; */
     margin-top: 30px;
+    padding-top: 50px;
 }
 
 .detox-container h3 {
@@ -453,6 +454,7 @@
     border: 2px solid;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 580px;
     padding: 10px;
 }
 .detox-container .recipe .left {
@@ -601,4 +603,80 @@
 
 
 
+
+
 /* --------------------------------detox container css end-------------------------------------- */
+
+/* --------------------------------Feature Products start--------------------------------------- */
+.product-contaner {
+    width: 100%;
+    border: 2px solid;
+    margin-top: 50px;
+}
+
+.product-contaner h3 {
+    font-family:'streamster', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0px;
+    padding: 0px;
+    color: #91ad41;
+    font-size: 22px;
+}
+
+.product-contaner h1 {
+    font-family:'poppins', sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 0px 0px 22px 0px;
+    background: url(../images/oar1_ico_title_150x.webp);
+    /* background-size: 100% 100%; */
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    font-size: 35px;
+}
+
+.product-contaner p {
+    font-family:'poppins', sans-serif;
+    text-align: center;
+    margin: 20px auto;
+    /* padding: 0px 30px; */
+    color: #8d8d99;
+    width: 55%;
+    border: 1px solid;
+    font-weight: normal;
+    letter-spacing: 1px;
+
+}
+
+.product-contaner .nav {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+.product-contaner .nav li {
+    list-style: none;
+    border: 1px solid #8d8d99;
+    display: inline;
+    padding: 5px 12px;
+    border-radius: 30%;
+    text-transform: uppercase;
+}
+
+.product-contaner .nav li a { 
+    text-decoration: none; 
+    color: #8d8d99;
+
+}
+.product-contaner .nav li a:hover {color: white;}
+.product-contaner .nav li:hover {
+    
+    background: #91ad41;
+}
+
+
+
+/* --------------------------------Feature Products end--------------------------------------- */
