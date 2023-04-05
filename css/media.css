@@ -73,11 +73,22 @@
         
     }
 
+
+    .detox-container .recipe .left .text-top .img {
+        width: 70%;
+        /* height: 70%; */
+
+    }
+    .detox-container .recipe .left .text-top .img:hover { 
+        transform: scale(1.1);}
+
+
+
     .detox-container .recipe .center img { width: 80%; height: 80%;}
-    .detox-container .recipe .right .text-top .img:hover { transform: scale(1);}
-    .detox-container .recipe .left .text-top .img:hover { transform: scale(1);}
-    .detox-container .recipe .right .text-btm .img:hover { transform: scale(1);}
-    .detox-container .recipe .left .text-btm .img:hover { transform: scale(1);}
+    /* .detox-container .recipe .right .text-top .img:hover { transform: scale(1);}
+    .detox-container .recipe .left .text-top .img:hover { transform: scale(1);} */
+    .detox-container .recipe .right .text-btm .img:hover { transform: scale(1.1);}
+    .detox-container .recipe .left .text-btm .img:hover { transform: scale(1.1);}
     .detox-container .recipe .left .text-top .text {
         top: 0px;
         left: 130px;
@@ -85,8 +96,8 @@
     }
     
     .detox-container .recipe .left .text-top .img {
-        top: 0px;
-        left: 0px;
+        top: 11px;
+        left: 15px;
         width: 25%;
         border: 1px solid;
     }
@@ -96,15 +107,15 @@
 
 
         .detox-container .recipe .left .text-btm .text {
-            top: 150px;
+            top: 170px;
             left: 130px;
            /*  text-align: right; */
         }
         
         .detox-container .recipe .left .text-btm .img {
             /* position: absolute; */
-            top: 150px;
-            left: 0px;
+            top: 185px;
+            left: 18px;
             width: 25%;
             /* transition: .5s; */
         }
@@ -120,7 +131,7 @@
         
         .detox-container .recipe .right .text-top .img {
             /* position: absolute; */
-            top: 0px;
+            top: 150px;
             left: 0px;
             width: 25%;
             /* transition: .5s; */
@@ -138,7 +149,7 @@
             
             .detox-container .recipe .right .text-btm .img {
                 /* position: absolute; */
-                top: 150px;
+                top: 0px;
                 left: 0px;
                 width: 25%;
                 border: 1px solid;
